@@ -6,7 +6,7 @@
 		"serve": "vue-cli-service serve",
 		"build": "vue-cli-service build",
 		"lint": "vue-cli-service lint",
-		"deploy": "sh deploy.sh"
+		"deploy": "deploy.sh"
 	},
 	"dependencies": {
 		"@tailwindcss/forms": "^0.3.3",
