@@ -10,29 +10,6 @@
         :alt="project.title"
         class="rounded-t-xl border-none"
       />
-      <div
-        style="background:#0000002e;"
-        class="opacity-0 hover:opacity-100 transition duration-700 ease-in-out absolute flex flex-col justify-center items-center inset-0 z-10 text-6xl text-white font-semibold"
-      >
-        <div
-          class="font-general-medium text-ternary-dark dark:text-ternary-light flex justify-center items-center"
-        >
-          <i
-            data-feather="globe"
-            class="w-4 h-4 text-ternary-dark dark:text-ternary-light"
-          ></i
-          ><span class="text-lg tracking-widest ml-2"> https://businessid.net/</span>
-        </div>
-        <div
-          class="font-general-medium text-ternary-dark dark:text-ternary-light flex justify-center items-center"
-        >
-          <i
-            data-feather="phone"
-            class="w-4 h-4 text-ternary-dark dark:text-ternary-light"
-          ></i>
-          <span class="text-lg tracking-widest ml-2">555 8888 888</span>
-        </div>
-      </div>
     </div>
     <div class="text-center px-4 py-6">
       <p
@@ -53,7 +30,7 @@ export default {
 };
 </script>
 <style scoped>
-.img-holder {
+/* .img-holder {
   position: relative;
   width: 50%;
 }
@@ -90,5 +67,5 @@ export default {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-}
+} */
 </style>

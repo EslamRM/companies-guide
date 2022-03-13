@@ -4,8 +4,8 @@
     <ProjectHeader :singleProjectHeader="singleProjectHeader" />
 
     <!-- Project gallery -->
-    <ProjectGallery :projectImages="projectImages" />
-
+    <!-- <ProjectGallery :projectImages="projectImages" /> -->
+    <Swiper />
     <!-- Project information -->
     <ProjectInfo :projectInfo="projectInfo" />
 
@@ -16,7 +16,8 @@
 <script>
 import feather from "feather-icons";
 import ProjectHeader from "../components/projects/ProjectHeader.vue";
-import ProjectGallery from "../components/projects/ProjectGallery.vue";
+// import ProjectGallery from "../components/projects/ProjectGallery.vue";
+import Swiper from "../components/projects/swiper.vue";
 import ProjectInfo from "../components/projects/ProjectInfo.vue";
 import ProjectRelatedProjects from "../components/projects/ProjectRelatedProjects.vue";
 
@@ -24,7 +25,8 @@ export default {
   name: "Projects",
   components: {
     ProjectHeader,
-    ProjectGallery,
+    Swiper,
+    // ProjectGallery,
     ProjectInfo,
     ProjectRelatedProjects,
   },
@@ -36,7 +38,7 @@ export default {
         singleProjectTag: "Real Estate",
       },
       projectImages: [
-         {
+        {
           id: 1,
           title: "Real Estate",
           img: require("@/assets/images/Contracting.jpg"),

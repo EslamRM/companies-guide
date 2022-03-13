@@ -13,7 +13,7 @@ export default {
 <template>
   <div class="flex justify-center items-center text-center">
     <div
-      class="font-general-regular text-lg text-ternary-dark dark:text-ternary-light"
+      class="font-general-regular text-sm sm:text-md text-ternary-dark dark:text-ternary-light"
     >
       &copy; {{ copyrightDate }}.
       <a
