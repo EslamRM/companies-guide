@@ -4,7 +4,7 @@
     class="rounded-xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 bg-secondary-light dark:bg-ternary-dark"
     aria-label="Single Project"
   >
-    <div class="bg-red-100 relative">
+    <div class="bg-red-100 relative rounded-t-xl">
       <img
         :src="project.img"
         :alt="project.title"
